@@ -1,0 +1,21 @@
+Package: fullobis
+Title: Simple Access to the Full OBIS Dataset
+Version: 0.1
+Authors@R: 
+    person(given = "Ben",
+           family = "Tupper",
+           role = c("aut", "cre"),
+           email = "btupper@bigelow.org",
+           comment = c(ORCID = "0000-0002-0150-0002"))
+Description: Provides simple download and access functionality.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+  utils,
+  rlang,
+  dplyr,
+  httr,
+  arrow
